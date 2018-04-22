@@ -17,13 +17,18 @@ body {
 }
 
 .forms{
+  padding-top: 5%;
   color: red;
-  position:absolute;
+  position:fixed;
   border: 2px solid red;
   height: 30%;
   width: 40%;
-  top: 65%;
+  top: 60%;
   left: 15%;
+}
+
+input{
+  margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 600px){
